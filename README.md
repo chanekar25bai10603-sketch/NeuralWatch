@@ -4,7 +4,6 @@
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://neuralwatch-vv3lpllqcyifqmgcmpqw6a.streamlit.app/)
 
 > *"Every existing cybersecurity tool monitors network traffic — the road. NeuralWatch monitors the brain driving the car."*
-
 ---
 
 ## The Problem Nobody Is Solving
@@ -168,4 +167,9 @@ Open `http://localhost:8501` — allow webcam access and show 2 fingers, or clic
 ## Team 
 
 **VECTRACE** — Built at NEURONEX'26 | Domain: Cybersecurity | Track: Neuromorphic Computing
+**TEAM MEMBERS** - **SANSKRUTI CHANEKAR 25BAI10603**|
+**ANWESHA DHOTE 25BAI10996**| **SAUMYA SINHA 25BAI11388**|
+**BRANCH- CSE (AI&ML)**
+**ACADEMIC YEAR- 1st YEAR**
+**UNIVERSITY - VIT BHOPAL UNIVERSITY**
 
