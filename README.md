@@ -4,7 +4,7 @@
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://neuralwatch-vv3lpllqcyifqmgcmpqw6a.streamlit.app/)
 
 > *"Every existing cybersecurity tool monitors network traffic — the road. NeuralWatch monitors the brain driving the car."*
- ```
+
 NeuralWatch is a neuromorphic cybersecurity prototype developed for Neuronex'26. Inspired by biological neurons, it uses a Leaky Integrate-and-Fire (LIF) model to monitor AI weight drift and identify suspicious patterns that may indicate model poisoning or manipulation
 ---
 As first-year AIML students, we wanted to explore how concepts from neuromorphic computing could be applied to cybersecurity. NeuralWatch is our attempt to combine AI integrity monitoring, spike-based neural models, and explainable threat detection into a single prototype.
