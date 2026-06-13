@@ -1,0 +1,13 @@
+streamlit>=1.28.0
+numpy>=1.24.0
+pandas>=2.0.0
+plotly>=5.18.0
+
+# Optional — biometric gesture lock (Layer 1).
+# These pull in heavy native dependencies (libGL etc.) that are NOT
+# preinstalled on Streamlit Community Cloud and commonly fail to build.
+# Leave them commented out for cloud deployment - the app automatically
+# falls back to "Demo Bypass" mode if these are unavailable.
+# To enable locally: uncomment both lines and `pip install -r requirements.txt`
+# opencv-python-headless>=4.8.0
+# mediapipe>=0.10.0
