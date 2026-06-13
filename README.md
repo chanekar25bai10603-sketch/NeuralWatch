@@ -127,6 +127,8 @@ A healthy AI learning normally produces random, non-directional weight changes �
 6. Spike fires     →  Membrane crosses threshold → red alert → log entry created
 7. Rollback        →  Click "Rollback Brain" → weights restored to clean baseline
 8. Tamper test     →  Click "Simulate Tamper Attack" → "Verify Log Chain" → chain break detected
+
+```
 ---
 *⚠️ Note: Gesture authentication requires a local webcam.*
 *On the deployed version, use "Demo Bypass" to access the dashboard.*
