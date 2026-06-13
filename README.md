@@ -1,11 +1,15 @@
 # 🧠 NeuralWatch
-### Neuromorphic AI Integrity Monitor for Cybersecurity
+### Neuromorphic AI Integrity Monitor for Cybersecurity 
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://neuralwatch-vv3lpllqcyifqmgcmpqw6a.streamlit.app/)
 
 > *"Every existing cybersecurity tool monitors network traffic — the road. NeuralWatch monitors the brain driving the car."*
+> ```
+>
+NeuralWatch is a neuromorphic cybersecurity prototype developed for Neuronex'26. Inspired by biological neurons, it uses a Leaky Integrate-and-Fire (LIF) model to monitor AI weight drift and identify suspicious patterns that may indicate model poisoning or manipulation
 ---
-
+As first-year AIML students, we wanted to explore how concepts from neuromorphic computing could be applied to cybersecurity. NeuralWatch is our attempt to combine AI integrity monitoring, spike-based neural models, and explainable threat detection into a single prototype.
+---
 ## The Problem Nobody Is Solving
 
 Modern AI-powered cybersecurity systems store their knowledge in **synaptic weights** — numbers that shift as the AI learns. A sophisticated attacker doesn't attack your network directly anymore.
@@ -42,12 +46,14 @@ Only an authorized engineer, performing a specific hand gesture via webcam, can 
 
 ## *Layer 2 — ⭐ Core Innovation: Neuromorphic Drift Detection*
 
-This is what makes NeuralWatch fundamentally different from anything else in cybersecurity.
+
 
 We simulate a **Leaky Integrate-and-Fire (LIF) neuron** — the foundational model of neuromorphic computing — to monitor the AI's synaptic weights in real time.
 
 ```
 Normal learning    →  tiny, random weight changes  →  membrane leaks away  →  no spike ✓
+
+*This is the key idea behind NeuralWatch and the part we explored for the Neuromorphic Computing track*
 
 Attack in progress →  consistent directional drift  →  membrane builds up
                    →  crosses threshold             →  SPIKE FIRED  →  🚨 ALERT
@@ -65,7 +71,7 @@ if membrane_potential > threshold:
     membrane_potential = 0                 # reset after spike
 ```
 
-**Why this defeats slow attackers:** A healthy AI learning normally produces random, non-directional weight changes — the membrane leaks faster than it fills. An attacker pushing the AI in one direction produces consistent, directional drift — the membrane accumulates until the spike fires. **The attacker cannot avoid triggering this without also stopping the AI from learning what they want it to learn.** There is no slow enough.
+**Why this defeats slow attackers:** A healthy AI learning normally produces random, non-directional weight changes — the membrane leaks faster than it fills. An attacker pushing the AI in one direction produces consistent, directional drift — the membrane accumulates until the spike fires. **In our experiments, persistent directional drift causes the LIF neuron to accumulate and eventually raise an alert** There is no slow enough.
 
 This is the same model used in neuromorphic hardware research at **Intel (Loihi 2)** and **IBM (TrueNorth)**.
 
@@ -174,9 +180,9 @@ Open `http://localhost:8501` — allow webcam access and show 2 fingers, or clic
 ---
 **TEAM MEMBERS** - **SANSKRUTI CHANEKAR 25BAI10603** **ANWESHA DHOTE 25BAI10996** **SAUMYA SINHA 25BAI11388**
 ---
-**BRANCH- CSE (AI&ML)**
+*BRANCH- CSE (AI&ML)*
 ---
-**ACADEMIC YEAR- 1st YEAR**
+*ACADEMIC YEAR- 1st YEAR*
 ---
-**UNIVERSITY - VIT BHOPAL UNIVERSITY**
+*UNIVERSITY - VIT BHOPAL UNIVERSITY*
 ---
