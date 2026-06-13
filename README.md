@@ -177,9 +177,10 @@ Open `http://localhost:8501` — allow webcam access and show 2 fingers, or clic
 
 **VECTRACE** — Built at NEURONEX'26 | Domain: Cybersecurity | Track: Neuromorphic Computing
 ---
-*TEAM MEMBERS* - *SANSKRUTI CHANEKAR 25BAI10603*
-*ANWESHA DHOTE 25BAI10996* 
-*SAUMYA SINHA 25BAI11388*
+*TEAM MEMBERS* -
+*ANWESHA DHOTE 25BAI10996* *|Project ideation,Team Leader, neuromorphic research, AI integrity monitoring, Neuromorphic Drift Detection,testing, |
+*SANSKRUTI CHANEKAR 25BAI10603|Project ideation, security architecture, dashboard development, testing, Audit Logging, Threat Simulation |
+*SAUMYA SINHA 25BAI11388*|Project ideation, system integration, gesture authentication, implementation, testing ,Gesture Authentication |
 ---
 *BRANCH- CSE (AI&ML)*
 ---
