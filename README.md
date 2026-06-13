@@ -23,7 +23,7 @@ By feeding it tiny amounts of corrupted data over weeks or months, they graduall
 
 NeuralWatch is a three-layer neuromorphic security system that treats the AI's own neural weights as a security surface — not an afterthought.
 
-![NeuralWatch Architecture](architecture.svg)
+![neuralwatch_architecture_flowchart](neuralwatch_architecture_flowchart.svg)
 ```
 
 ---
