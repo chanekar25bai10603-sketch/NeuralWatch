@@ -86,7 +86,7 @@ NeuralWatch's LIF model would have caught the cumulative drift in the AI's behav
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/neuralwatch
+git clone https://github.com/chanekar25bai10603-sketch/NeuralWatch
 cd neuralwatch
 
 # 2. Install dependencies
@@ -118,13 +118,12 @@ Then open your browser at `http://localhost:8501`
 
 ## Team
 
-Built at [Hackathon Name] | Domain: Cybersecurity | Track: Neuromorphic Computing
+Built at [NEURONEX'26] | Domain: Cybersecurity | Track: Neuromorphic Computing
 
 ---
 
 ## References
 
-- Mahowald et al. (2023) — Leaky Integrate-and-Fire neuron models in neuromorphic hardware
-- Intel Loihi 2 neuromorphic chip documentation
+-  Intel Loihi 2 neuromorphic chip documentation
 - MITRE ATT&CK Framework — ML Model Poisoning (T1565)
 - SolarWinds attack post-mortem (CISA, 2021)
