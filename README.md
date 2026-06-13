@@ -167,8 +167,8 @@ Open `http://localhost:8501` — allow webcam access and show 2 fingers, or clic
 ## Team 
 
 **VECTRACE** — Built at NEURONEX'26 | Domain: Cybersecurity | Track: Neuromorphic Computing
+---
 **TEAM MEMBERS** - **SANSKRUTI CHANEKAR 25BAI10603** **ANWESHA DHOTE 25BAI10996** **SAUMYA SINHA 25BAI11388**
-
 ---
 **BRANCH- CSE (AI&ML)**
 ---
