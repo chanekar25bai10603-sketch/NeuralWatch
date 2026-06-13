@@ -8,7 +8,7 @@
 NeuralWatch is a neuromorphic cybersecurity prototype developed for Neuronex'26. Inspired by biological neurons, it uses a Leaky Integrate-and-Fire (LIF) model to monitor AI weight drift and identify suspicious patterns that may indicate model poisoning or manipulation
 ---
 As first-year AIML students, we wanted to explore how concepts from neuromorphic computing could be applied to cybersecurity. NeuralWatch is our attempt to combine AI integrity monitoring, spike-based neural models, and explainable threat detection into a single prototype.
----
+
 ## The Problem Nobody Is Solving
 
 Modern AI-powered cybersecurity systems store their knowledge in **synaptic weights** — numbers that shift as the AI learns. A sophisticated attacker doesn't attack your network directly anymore.
