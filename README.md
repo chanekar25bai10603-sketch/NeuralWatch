@@ -1,6 +1,8 @@
 # 🧠 NeuralWatch
 ### Neuromorphic AI Integrity Monitor for Cybersecurity
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://neuralwatch-vv3lpllqcyifqmgcmpqw6a.streamlit.app/)
+
 > *"Every existing cybersecurity tool monitors network traffic — the road. NeuralWatch monitors the brain driving the car."*
 
 ---
