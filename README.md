@@ -28,7 +28,7 @@ NeuralWatch is a three-layer neuromorphic security system that treats the AI's o
 
 ---
 
-## Layer 1 — Biometric Gesture Lock
+## *Layer 1 — Biometric Gesture Lock*
 
 Only an authorized engineer, performing a specific hand gesture via webcam, can access the monitoring dashboard.
 
@@ -39,7 +39,7 @@ Only an authorized engineer, performing a specific hand gesture via webcam, can 
 
 ---
 
-## Layer 2 — ⭐ Core Innovation: Neuromorphic Drift Detection
+## *Layer 2 — ⭐ Core Innovation: Neuromorphic Drift Detection*
 
 This is what makes NeuralWatch fundamentally different from anything else in cybersecurity.
 
