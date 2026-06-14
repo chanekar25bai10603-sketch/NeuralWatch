@@ -39,7 +39,7 @@ Only an authorized engineer, performing a specific hand gesture via webcam, can 
 - 21-point hand landmark model runs entirely on-device — no data leaves the machine
 - Requires sustained gesture hold (2 seconds) to prevent accidental triggers
 - Fallback: Demo Bypass mode for judges without webcam access
-
+```
 ![NeuralWatch Login](login.png)
 ```
 ---
