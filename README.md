@@ -29,7 +29,6 @@ NeuralWatch is a three-layer neuromorphic security system that treats the AI's o
 
 ![neuralwatch_architecture_flowchart](neuralwatch_architecture_flowchart.svg)
 ```
-
 ---
 
 ## *Layer 1 — Biometric Gesture Lock*
@@ -41,12 +40,10 @@ Only an authorized engineer, performing a specific hand gesture via webcam, can 
 - Requires sustained gesture hold (2 seconds) to prevent accidental triggers
 - Fallback: Demo Bypass mode for judges without webcam access
 
-![NeuralWatch Login](Screenshot_2026-06-14_142200.png)
+![NeuralWatch Login](Screenshot 2026-06-14 142200.png)
 ---
 
 ## *Layer 2 — ⭐ Core Innovation: Neuromorphic Drift Detection*
-
-
 
 We simulate a **Leaky Integrate-and-Fire (LIF) neuron** — the foundational model of neuromorphic computing — to monitor the AI's synaptic weights in real time.
 
@@ -75,7 +72,7 @@ if membrane_potential > threshold:
 
 This is the same model used in neuromorphic hardware research at **Intel (Loihi 2)** and **IBM (TrueNorth)**.
 
-![NeuralWatch Dashboard](Screenshot_2026-06-14_142232.png)
+![NeuralWatch Dashboard](Screenshot 2026-06-14 142232.png)
 ---
 
 ## Layer 3 — Cryptographic Tamper-Evident Audit Log
@@ -89,7 +86,8 @@ Entry 003: {event: "spike_fired",      weights_hash: "cc4d...", prev_hash: "b12c
 ```
 
 If an attacker gains access and deletes entry 002, entry 003's `prev_hash` no longer matches — **the chain breaks instantly and a secondary alert fires.**
-![Live Audit Log](Screenshot_2026-06-14_142252.png)
+
+![Live Audit Log](Screenshot 2026-06-14 142252.png)
 ---
 
 ## What Makes NeuralWatch Different
@@ -135,7 +133,7 @@ A healthy AI learning normally produces random, non-directional weight changes �
 7. Rollback        →  Click "Rollback Brain" → weights restored to clean baseline
 8. Tamper test     →  Click "Simulate Tamper Attack" → "Verify Log Chain" → chain break detected
 ```
-![Spike Detection Alert](Screenshot_2026-06-14_142329.png)
+![Spike Detection Alert](Screenshot 2026-06-14 142329.png)
 ---
 ⚠️ *Note: Gesture authentication requires a local webcam.*
 *On the deployed version, use "Demo Bypass" to access the dashboard.*
