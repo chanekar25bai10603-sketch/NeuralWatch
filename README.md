@@ -41,6 +41,7 @@ Only an authorized engineer, performing a specific hand gesture via webcam, can 
 - Fallback: Demo Bypass mode for judges without webcam access
 
 ![NeuralWatch Login](login.png)
+```
 ---
 
 ## *Layer 2 — ⭐ Core Innovation: Neuromorphic Drift Detection*
